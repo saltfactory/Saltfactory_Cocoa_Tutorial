@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B32E347815D9D6D700E04852 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E347715D9D6D600E04852 /* Cocoa.framework */; };
+		B32E348215D9D6D700E04852 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B32E348015D9D6D700E04852 /* InfoPlist.strings */; };
+		B32E348415D9D6D700E04852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B32E348315D9D6D700E04852 /* main.m */; };
+		B32E348815D9D6D700E04852 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B32E348615D9D6D700E04852 /* Credits.rtf */; };
+		B32E348B15D9D6D700E04852 /* SFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B32E348A15D9D6D700E04852 /* SFAppDelegate.m */; };
+		B32E348E15D9D6D700E04852 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B32E348C15D9D6D700E04852 /* MainMenu.xib */; };
+		B32E349115D9D6D700E04852 /* SaltfactoryCocoaTutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B32E348F15D9D6D700E04852 /* SaltfactoryCocoaTutorial.xcdatamodeld */; };
+		B32E349915D9D6D700E04852 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E349815D9D6D700E04852 /* SenTestingKit.framework */; };
+		B32E349A15D9D6D700E04852 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E347715D9D6D600E04852 /* Cocoa.framework */; };
+		B32E34A215D9D6D700E04852 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B32E34A015D9D6D700E04852 /* InfoPlist.strings */; };
+		B32E34A515D9D6D700E04852 /* SaltfactoryCocoaTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B32E34A415D9D6D700E04852 /* SaltfactoryCocoaTutorialTests.m */; };
+		B32E34AD15D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter.mdimporter in Resources */ = {isa = PBXBuildFile; fileRef = B32E34AA15D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter.mdimporter */; };
+		B32E34AF15D9D6D700E04852 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E34AE15D9D6D700E04852 /* CoreServices.framework */; };
+		B32E34B115D9D6D700E04852 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E34B015D9D6D700E04852 /* CoreFoundation.framework */; };
+		B32E34B315D9D6D700E04852 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E34B215D9D6D700E04852 /* CoreData.framework */; };
+		B32E34B515D9D6D700E04852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E34B415D9D6D700E04852 /* Foundation.framework */; };
+		B32E34BB15D9D6D700E04852 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B32E34B915D9D6D700E04852 /* InfoPlist.strings */; };
+		B32E34BD15D9D6D700E04852 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B32E34BC15D9D6D700E04852 /* main.c */; };
+		B32E34BF15D9D6D700E04852 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B32E34BE15D9D6D700E04852 /* GetMetadataForFile.m */; };
+		B32E34C215D9D6D700E04852 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = B32E34C115D9D6D700E04852 /* MySpotlightImporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B32E349B15D9D6D700E04852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32E346A15D9D6D600E04852 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B32E347215D9D6D600E04852;
+			remoteInfo = SaltfactoryCocoaTutorial;
+		};
+		B32E34AB15D9D6D700E04852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32E346A15D9D6D600E04852 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B32E34A915D9D6D700E04852;
+			remoteInfo = SaltfactoryCocoaTutorialImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B32E347315D9D6D600E04852 /* SaltfactoryCocoaTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaltfactoryCocoaTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32E347715D9D6D600E04852 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B32E347A15D9D6D700E04852 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B32E347B15D9D6D700E04852 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B32E347C15D9D6D700E04852 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B32E347F15D9D6D700E04852 /* SaltfactoryCocoaTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaltfactoryCocoaTutorial-Info.plist"; sourceTree = "<group>"; };
+		B32E348115D9D6D700E04852 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B32E348315D9D6D700E04852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B32E348515D9D6D700E04852 /* SaltfactoryCocoaTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaltfactoryCocoaTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		B32E348715D9D6D700E04852 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B32E348915D9D6D700E04852 /* SFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAppDelegate.h; sourceTree = "<group>"; };
+		B32E348A15D9D6D700E04852 /* SFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAppDelegate.m; sourceTree = "<group>"; };
+		B32E348D15D9D6D700E04852 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B32E349015D9D6D700E04852 /* SaltfactoryCocoaTutorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SaltfactoryCocoaTutorial.xcdatamodel; sourceTree = "<group>"; };
+		B32E349715D9D6D700E04852 /* SaltfactoryCocoaTutorialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaltfactoryCocoaTutorialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32E349815D9D6D700E04852 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B32E349F15D9D6D700E04852 /* SaltfactoryCocoaTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaltfactoryCocoaTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		B32E34A115D9D6D700E04852 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B32E34A315D9D6D700E04852 /* SaltfactoryCocoaTutorialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaltfactoryCocoaTutorialTests.h; sourceTree = "<group>"; };
+		B32E34A415D9D6D700E04852 /* SaltfactoryCocoaTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaltfactoryCocoaTutorialTests.m; sourceTree = "<group>"; };
+		B32E34AA15D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaltfactoryCocoaTutorialImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32E34AE15D9D6D700E04852 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		B32E34B015D9D6D700E04852 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B32E34B215D9D6D700E04852 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B32E34B415D9D6D700E04852 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B32E34B815D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaltfactoryCocoaTutorialImporter-Info.plist"; sourceTree = "<group>"; };
+		B32E34BA15D9D6D700E04852 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B32E34BC15D9D6D700E04852 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B32E34BE15D9D6D700E04852 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		B32E34C015D9D6D700E04852 /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		B32E34C115D9D6D700E04852 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
+		B32E34C315D9D6D700E04852 /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		B32E34C415D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaltfactoryCocoaTutorialImporter-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B32E347015D9D6D600E04852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32E347815D9D6D700E04852 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32E349315D9D6D700E04852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32E349915D9D6D700E04852 /* SenTestingKit.framework in Frameworks */,
+				B32E349A15D9D6D700E04852 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32E34A715D9D6D700E04852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32E34AF15D9D6D700E04852 /* CoreServices.framework in Frameworks */,
+				B32E34B115D9D6D700E04852 /* CoreFoundation.framework in Frameworks */,
+				B32E34B315D9D6D700E04852 /* CoreData.framework in Frameworks */,
+				B32E34B515D9D6D700E04852 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B32E346815D9D6D600E04852 = {
+			isa = PBXGroup;
+			children = (
+				B32E347D15D9D6D700E04852 /* SaltfactoryCocoaTutorial */,
+				B32E349D15D9D6D700E04852 /* SaltfactoryCocoaTutorialTests */,
+				B32E34B615D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter */,
+				B32E347615D9D6D600E04852 /* Frameworks */,
+				B32E347415D9D6D600E04852 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B32E347415D9D6D600E04852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B32E347315D9D6D600E04852 /* SaltfactoryCocoaTutorial.app */,
+				B32E349715D9D6D700E04852 /* SaltfactoryCocoaTutorialTests.octest */,
+				B32E34AA15D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B32E347615D9D6D600E04852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32E347715D9D6D600E04852 /* Cocoa.framework */,
+				B32E349815D9D6D700E04852 /* SenTestingKit.framework */,
+				B32E34AE15D9D6D700E04852 /* CoreServices.framework */,
+				B32E34B015D9D6D700E04852 /* CoreFoundation.framework */,
+				B32E34B215D9D6D700E04852 /* CoreData.framework */,
+				B32E34B415D9D6D700E04852 /* Foundation.framework */,
+				B32E347915D9D6D700E04852 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B32E347915D9D6D700E04852 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32E347A15D9D6D700E04852 /* AppKit.framework */,
+				B32E347B15D9D6D700E04852 /* CoreData.framework */,
+				B32E347C15D9D6D700E04852 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B32E347D15D9D6D700E04852 /* SaltfactoryCocoaTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				B32E348915D9D6D700E04852 /* SFAppDelegate.h */,
+				B32E348A15D9D6D700E04852 /* SFAppDelegate.m */,
+				B32E348C15D9D6D700E04852 /* MainMenu.xib */,
+				B32E348F15D9D6D700E04852 /* SaltfactoryCocoaTutorial.xcdatamodeld */,
+				B32E347E15D9D6D700E04852 /* Supporting Files */,
+			);
+			path = SaltfactoryCocoaTutorial;
+			sourceTree = "<group>";
+		};
+		B32E347E15D9D6D700E04852 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B32E347F15D9D6D700E04852 /* SaltfactoryCocoaTutorial-Info.plist */,
+				B32E348015D9D6D700E04852 /* InfoPlist.strings */,
+				B32E348315D9D6D700E04852 /* main.m */,
+				B32E348515D9D6D700E04852 /* SaltfactoryCocoaTutorial-Prefix.pch */,
+				B32E348615D9D6D700E04852 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B32E349D15D9D6D700E04852 /* SaltfactoryCocoaTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				B32E34A315D9D6D700E04852 /* SaltfactoryCocoaTutorialTests.h */,
+				B32E34A415D9D6D700E04852 /* SaltfactoryCocoaTutorialTests.m */,
+				B32E349E15D9D6D700E04852 /* Supporting Files */,
+			);
+			path = SaltfactoryCocoaTutorialTests;
+			sourceTree = "<group>";
+		};
+		B32E349E15D9D6D700E04852 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B32E349F15D9D6D700E04852 /* SaltfactoryCocoaTutorialTests-Info.plist */,
+				B32E34A015D9D6D700E04852 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B32E34B615D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter */ = {
+			isa = PBXGroup;
+			children = (
+				B32E34BE15D9D6D700E04852 /* GetMetadataForFile.m */,
+				B32E34C015D9D6D700E04852 /* MySpotlightImporter.h */,
+				B32E34C115D9D6D700E04852 /* MySpotlightImporter.m */,
+				B32E34C315D9D6D700E04852 /* Importer Read Me.txt */,
+				B32E34B715D9D6D700E04852 /* Supporting Files */,
+			);
+			path = SaltfactoryCocoaTutorialImporter;
+			sourceTree = "<group>";
+		};
+		B32E34B715D9D6D700E04852 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B32E34B815D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter-Info.plist */,
+				B32E34B915D9D6D700E04852 /* InfoPlist.strings */,
+				B32E34BC15D9D6D700E04852 /* main.c */,
+				B32E34C415D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B32E347215D9D6D600E04852 /* SaltfactoryCocoaTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32E34CA15D9D6D700E04852 /* Build configuration list for PBXNativeTarget "SaltfactoryCocoaTutorial" */;
+			buildPhases = (
+				B32E346F15D9D6D600E04852 /* Sources */,
+				B32E347015D9D6D600E04852 /* Frameworks */,
+				B32E347115D9D6D600E04852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B32E34AC15D9D6D700E04852 /* PBXTargetDependency */,
+			);
+			name = SaltfactoryCocoaTutorial;
+			productName = SaltfactoryCocoaTutorial;
+			productReference = B32E347315D9D6D600E04852 /* SaltfactoryCocoaTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B32E349615D9D6D700E04852 /* SaltfactoryCocoaTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32E34CD15D9D6D700E04852 /* Build configuration list for PBXNativeTarget "SaltfactoryCocoaTutorialTests" */;
+			buildPhases = (
+				B32E349215D9D6D700E04852 /* Sources */,
+				B32E349315D9D6D700E04852 /* Frameworks */,
+				B32E349415D9D6D700E04852 /* Resources */,
+				B32E349515D9D6D700E04852 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B32E349C15D9D6D700E04852 /* PBXTargetDependency */,
+			);
+			name = SaltfactoryCocoaTutorialTests;
+			productName = SaltfactoryCocoaTutorialTests;
+			productReference = B32E349715D9D6D700E04852 /* SaltfactoryCocoaTutorialTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B32E34A915D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32E34C715D9D6D700E04852 /* Build configuration list for PBXNativeTarget "SaltfactoryCocoaTutorialImporter" */;
+			buildPhases = (
+				B32E34A615D9D6D700E04852 /* Sources */,
+				B32E34A715D9D6D700E04852 /* Frameworks */,
+				B32E34A815D9D6D700E04852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaltfactoryCocoaTutorialImporter;
+			productName = SaltfactoryCocoaTutorialImporter;
+			productReference = B32E34AA15D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B32E346A15D9D6D600E04852 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SF;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = saltfactory.net;
+			};
+			buildConfigurationList = B32E346D15D9D6D600E04852 /* Build configuration list for PBXProject "SaltfactoryCocoaTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B32E346815D9D6D600E04852;
+			productRefGroup = B32E347415D9D6D600E04852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B32E347215D9D6D600E04852 /* SaltfactoryCocoaTutorial */,
+				B32E349615D9D6D700E04852 /* SaltfactoryCocoaTutorialTests */,
+				B32E34A915D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B32E347115D9D6D600E04852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32E348215D9D6D700E04852 /* InfoPlist.strings in Resources */,
+				B32E348815D9D6D700E04852 /* Credits.rtf in Resources */,
+				B32E348E15D9D6D700E04852 /* MainMenu.xib in Resources */,
+				B32E34AD15D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter.mdimporter in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32E349415D9D6D700E04852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32E34A215D9D6D700E04852 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32E34A815D9D6D700E04852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32E34BB15D9D6D700E04852 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B32E349515D9D6D700E04852 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B32E346F15D9D6D600E04852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32E348415D9D6D700E04852 /* main.m in Sources */,
+				B32E348B15D9D6D700E04852 /* SFAppDelegate.m in Sources */,
+				B32E349115D9D6D700E04852 /* SaltfactoryCocoaTutorial.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32E349215D9D6D700E04852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32E34A515D9D6D700E04852 /* SaltfactoryCocoaTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32E34A615D9D6D700E04852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32E34BD15D9D6D700E04852 /* main.c in Sources */,
+				B32E34BF15D9D6D700E04852 /* GetMetadataForFile.m in Sources */,
+				B32E34C215D9D6D700E04852 /* MySpotlightImporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B32E349C15D9D6D700E04852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B32E347215D9D6D600E04852 /* SaltfactoryCocoaTutorial */;
+			targetProxy = B32E349B15D9D6D700E04852 /* PBXContainerItemProxy */;
+		};
+		B32E34AC15D9D6D700E04852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B32E34A915D9D6D700E04852 /* SaltfactoryCocoaTutorialImporter */;
+			targetProxy = B32E34AB15D9D6D700E04852 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B32E348015D9D6D700E04852 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32E348115D9D6D700E04852 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B32E348615D9D6D700E04852 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32E348715D9D6D700E04852 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B32E348C15D9D6D700E04852 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32E348D15D9D6D700E04852 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B32E34A015D9D6D700E04852 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32E34A115D9D6D700E04852 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B32E34B915D9D6D700E04852 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32E34BA15D9D6D700E04852 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B32E34C515D9D6D700E04852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B32E34C615D9D6D700E04852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B32E34C815D9D6D700E04852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaltfactoryCocoaTutorialImporter/SaltfactoryCocoaTutorialImporter-Prefix.pch";
+				INFOPLIST_FILE = "SaltfactoryCocoaTutorialImporter/SaltfactoryCocoaTutorialImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		B32E34C915D9D6D700E04852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaltfactoryCocoaTutorialImporter/SaltfactoryCocoaTutorialImporter-Prefix.pch";
+				INFOPLIST_FILE = "SaltfactoryCocoaTutorialImporter/SaltfactoryCocoaTutorialImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+		B32E34CB15D9D6D700E04852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer: SungKwang Song (XBMPC3V225)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaltfactoryCocoaTutorial/SaltfactoryCocoaTutorial-Prefix.pch";
+				INFOPLIST_FILE = "SaltfactoryCocoaTutorial/SaltfactoryCocoaTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E14839F8-B837-485C-A1EE-F68499633DEF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B32E34CC15D9D6D700E04852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer: SungKwang Song (XBMPC3V225)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaltfactoryCocoaTutorial/SaltfactoryCocoaTutorial-Prefix.pch";
+				INFOPLIST_FILE = "SaltfactoryCocoaTutorial/SaltfactoryCocoaTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E14839F8-B837-485C-A1EE-F68499633DEF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B32E34CE15D9D6D700E04852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SaltfactoryCocoaTutorial.app/Contents/MacOS/SaltfactoryCocoaTutorial";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaltfactoryCocoaTutorial/SaltfactoryCocoaTutorial-Prefix.pch";
+				INFOPLIST_FILE = "SaltfactoryCocoaTutorialTests/SaltfactoryCocoaTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B32E34CF15D9D6D700E04852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SaltfactoryCocoaTutorial.app/Contents/MacOS/SaltfactoryCocoaTutorial";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaltfactoryCocoaTutorial/SaltfactoryCocoaTutorial-Prefix.pch";
+				INFOPLIST_FILE = "SaltfactoryCocoaTutorialTests/SaltfactoryCocoaTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B32E346D15D9D6D600E04852 /* Build configuration list for PBXProject "SaltfactoryCocoaTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32E34C515D9D6D700E04852 /* Debug */,
+				B32E34C615D9D6D700E04852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32E34C715D9D6D700E04852 /* Build configuration list for PBXNativeTarget "SaltfactoryCocoaTutorialImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32E34C815D9D6D700E04852 /* Debug */,
+				B32E34C915D9D6D700E04852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B32E34CA15D9D6D700E04852 /* Build configuration list for PBXNativeTarget "SaltfactoryCocoaTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32E34CB15D9D6D700E04852 /* Debug */,
+				B32E34CC15D9D6D700E04852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B32E34CD15D9D6D700E04852 /* Build configuration list for PBXNativeTarget "SaltfactoryCocoaTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32E34CE15D9D6D700E04852 /* Debug */,
+				B32E34CF15D9D6D700E04852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B32E348F15D9D6D700E04852 /* SaltfactoryCocoaTutorial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B32E349015D9D6D700E04852 /* SaltfactoryCocoaTutorial.xcdatamodel */,
+			);
+			currentVersion = B32E349015D9D6D700E04852 /* SaltfactoryCocoaTutorial.xcdatamodel */;
+			path = SaltfactoryCocoaTutorial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B32E346A15D9D6D600E04852 /* Project object */;
+}
